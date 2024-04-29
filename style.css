@@ -324,3 +324,34 @@ figcaption span:hover{
 .contenido-producto:hover img {
     transform:scale(.98);
 }
+/*beneficios*/
+.section-title-beneficios h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-transform: none;
+    color: #222;
+}
+.contenedor-beneficios{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+.contenedor-text-imagen{
+    display: flex;
+    justify-content: center;
+}
+.icono img{
+    max-width: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.icono{
+    Flex-basis: 25%;
+    margin: 0 1rem 0 1rem;
+}

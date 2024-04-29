@@ -41,6 +41,9 @@ body{
 .navegador{
     width:100%;
     font-family: "Inter", sans-serif;
+    position: sticky;
+    z-index: 15;
+    top:0;
 }
 .navbar{
     display:flex;
